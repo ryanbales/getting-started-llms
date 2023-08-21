@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "getting-started-llms"
+version = "0.1.0"
+description = ""
+authors = ["Ryan Bales <ryan@balesfamily.net>"]
+readme = "README.md"
+packages = [{include = "getting_started_llms"}]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+openai = "^0.27.8"
+streamlit = "^1.25.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
