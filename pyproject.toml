@@ -10,6 +10,7 @@ packages = [{include = "getting_started_llms"}]
 python = "^3.11"
 openai = "^0.27.8"
 streamlit = "^1.25.0"
+tiktoken = "^0.4.0"
 
 
 [build-system]
