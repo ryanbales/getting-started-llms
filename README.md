@@ -9,7 +9,7 @@ In order to get your local environment set up, you will need to have the followi
 - Python 3.11.4: I recommend using [pyenv](https://github.com/pyenv/pyenv#getting-pyenv)
 - Poetry: [Installing Poetry](https://python-poetry.org/docs/#installing-with-the-official-installer)
 
-## Settup up your OpenAI API Key
+## Setting up your OpenAI API Key
 Once you have your local environment set up, you will need to setup an OpenAI developer accouint and obtain an OpenAI API key. Once you have your API key, you will need to set it as an environment variable. You can do this by editing your `.zshrc` file or by running the following command:
 
 ```bash
