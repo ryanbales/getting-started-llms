@@ -2,9 +2,6 @@
 ## Overview
 This is an example of using the OpenAI API in a python application. The python application is a web application hosted in streamlit.
 
-## Design
-This web application runs in python and uses Flask to serve the web pages. It uses Redis via AWS ElastiCache to store the session data and is deployed to AWS using Elastic Beanstalk.  Currently, all conversation data is static and stored in AWS S3 and retreived on-demand.  In the future, this will be updated to use diffeernt data storage systems.
-
 ## Prerequisites
 In order to get your local environment set up, you will need to have the following installed:
 
